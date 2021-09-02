@@ -30,16 +30,12 @@
 
 
 
-nos=[]
-for i in range(int(input())):
-    nos.append(int(input()))
-a=len(nos)
-for i in range(a):
-    for j in range(i+1,a):
-        least=nos[i]
-        if least>nos[j]:
-            nos[i]=nos[j]
-            nos[j]=least
-for i in nos:
-    print(i)
+withdraw,balance=input().split()
+withdraw=float(withdraw)
+balance=float(balance)
+if withdraw<=(balance-0.50) and withdraw%5==0:
+    balance-=(withdraw+0.50)
+    print(round(balance,2))
+else:
+    print(round(balance,2)))
             
