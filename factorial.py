@@ -19,15 +19,8 @@
 #120
 #6
 
-nos=[]
 for i in range(int(input())):
-    nos.append(int(input()))
-a=len(nos)
-for i in range(a):
-    for j in range(i+1,a):
-        least=nos[i]
-        if least>nos[j]:
-            nos[i]=nos[j]
-            nos[j]=least
-for i in nos:
-    print(i)
+    j=1
+    for i in range(int(input()),0,-1):
+        j=j*i
+    print(j)
