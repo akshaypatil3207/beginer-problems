@@ -9,6 +9,7 @@
 #Example
 #Sample input:
 #4
+#1
 #2
 #5
 #3
