@@ -22,12 +22,6 @@
 #10
 
 #Read the number of test cases.
-T = int(raw_input())
-for tc in range(T):
-	# Read integers a and b.
-	(a, b) = map(int, raw_input().split(' '))
-	
-	#Compute the answer
-	#Complete the line below	
-	ans = 
-	print(ans)
+for i in range(int(input())):
+    dividend,divisor=map(int,input().split())
+    print(dividend%divisor))
