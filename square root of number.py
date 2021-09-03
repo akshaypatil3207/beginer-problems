@@ -18,7 +18,7 @@
 #2
 #100
 
-import math as m
+
 for i in range(int(input())):
-    a=m.sqrt(int(input()))
-    print(m.floor(a))
+    print(int(x**(0.5)))
+    
